@@ -6,5 +6,5 @@ const reactionSchema = new Schema({
   username: { type: String, required: true },
 }, { timestamps: true });
 
-const Reaction = mongoose.model('Reaction', reactionSchema);
-module.exports = Reaction;
+//const Reaction = mongoose.model('Reaction', reactionSchema);
+module.exports = reactionSchema
