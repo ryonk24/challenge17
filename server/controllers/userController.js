@@ -113,4 +113,4 @@ const deleteFriend = async (req, res) => {
 }
 
 
-module.exports = { getUsers, getUserById, createUser, updateUser, deleteUser };
+module.exports = { getUsers, getUserById, createUser, updateUser, deleteUser, addFriend, deleteFriend };

@@ -117,4 +117,4 @@ const deleteReaction = async (req, res) => {
         res.status(500).json({ message: error.message });
     }
 }
-module.exports = { getThoughts, getThoughtById, createThought, updateThought, deleteThought };
+module.exports = { getThoughts, getThoughtById, createThought, updateThought, deleteThought ,addReaction, deleteReaction };
