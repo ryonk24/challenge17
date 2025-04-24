@@ -4,15 +4,16 @@
     "description": "NoSQL Challenge Project",
     "main": "index.js",
     "scripts": {
-        "start": "node index.js",
+        "start": "node server/index.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "mongodb": "6.16.0",
         "dotenv": "^16.0.0",
+        "express": "^5.1.0",
+        "mongodb": "6.16.0",
         "mongoose": "^7.0.0"
     }
 }

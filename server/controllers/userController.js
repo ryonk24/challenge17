@@ -1,5 +1,5 @@
-const User = require('../server/models/User');
-const Thought = require('../server/models/Thought');
+const User = require('../models/user');
+const Thought = require('../models/thought');
 
 const getUsers = async (req, res) => {
     try {

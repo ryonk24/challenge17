@@ -1,5 +1,5 @@
 const express = require('express');
-const connectDB = require('./server/config/database');
+const connectDB = require('./config/db');
 const userRoutes = require('./routes/userRoutes');
 const thoughtRoutes = require('./routes/thoughtRoutes');
 

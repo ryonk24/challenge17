@@ -14,7 +14,7 @@ const thoughtSchema = new Schema({
     },
   },
 }, {
-  timestamps: true, 
+  timestamps: true,
   toJSON: {
     virtuals: true,
   },
